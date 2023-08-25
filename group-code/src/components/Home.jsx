@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Logo from '../assets/Logo_Small.png'
 import '../styles/Home.css'
 import {v4 as uuidV4} from 'uuid'
+import toast from 'react-hot-toast';
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
     e.preventDefault();
     const id = uuidV4();
     setRoomId(id);
+    toast.success('New Room Created Successfully ,Invite friends to Collaborate') //we need a toast container before we add this , we need to have the container global and wrap it in APp.jsx
   }
 
   return (
