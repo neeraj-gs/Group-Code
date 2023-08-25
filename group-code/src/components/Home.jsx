@@ -2,7 +2,13 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='homePageWrapper'>
+      <div className='formWrapper'>
+        <form action="">
+          
+        </form>
+      </div>
+    </div>
   )
 }
 
