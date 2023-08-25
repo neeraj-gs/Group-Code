@@ -27,8 +27,23 @@ Steps Involved during the development of the Projects
     10.Whenever a New room is created a unique id has to be geenerated
         package:npm install uuid 
             It is a pacakge that geenerates unique id every time a new Room is created
-            
+    11.Genereate random id for each new room 
+    12.Add hte id generated on the input room field so that it can be shared with others
+
+    13.Make sure the id is visible in real time 
+    14.After the room is creted add a snackbar saying the room was created successfulyy
+        Can do it using MUI or Toast 
+    15.npm install react-hot-toast 
+    16.Create toast.success at the palce after what you want to disaply 
+    17. toast has to be a global component in App.js 
+        Toaster is the global compoent ,inside which we can give postitoin and the colors 
     
+    18.Now after Join , we need to redirect o editor and specific root id 
+    19.It is done useing useNaigate hook as it allows to rediret without having to refresh the page 
+    20.Then Now to add a UX functionality , theat is when pressen enter instead of join needs to redirect also 
+        TO Do it , add listeneners onKeyUp={}
+        then in taht handler,pass e and e.code //goves all the keys we press so we can use this and checkl enter 
+        e.code =='enter' only then do else dont do 
 
 
 
