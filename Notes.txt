@@ -13,8 +13,16 @@ Keeps all clients in Sync in Real Time
 
 
 Steps Involved during the development of the Projects
-
-
+    1.INitialize an empthy vite proejct or react Project
+    2.Clean up the code and get set woth developemnt envirnment
+    3.Now to get diffretn pages where the form is preesnt and 
+        set the react router for diffrent pages
+    4.Creaet Home Page and Editor Page and design them and then run teh logic in import
+    5.Set the Routers and Routes to the specific pages
+    6.Start Craeting the Home Page 
+    7.Add Basic Skeleton of Home Page 
+    8.Style the Home Page
+    
 
 
 
