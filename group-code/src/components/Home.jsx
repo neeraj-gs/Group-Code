@@ -43,14 +43,22 @@ const Home = () => {
 
   }
 
+  const handleKeyUp = (e) =>{
+    if(e.code === 'Enter'){
+      joinRoom();
+    }
+
+  }
+
+
   return (
     <div className='homePageWrapper'>
       <div className='formWrapper'>
         <img className='logo'  src={Logo} alt='Group Code Logo'/>
         <h4 className='mainLabel'>Paste Invitation ROOM ID</h4>
         <div className="inputGroup">
-          <input type="text" className='inputBox' placeholder='ROOM ID' value={roomId} onChange={(e)=>setRoomId(e.target.value)}/>
-          <input type="text" className='inputBox' placeholder='Username' value={username} onChange={(e)=>setUsername(e.target.value)} />
+          <input type="text" className='inputBox' placeholder='ROOM ID' value={roomId} onChange={(e)=>setRoomId(e.target.value)} onKeyUp={handleKeyUp} />
+          <input type="text" className='inputBox' placeholder='Username' value={username} onChange={(e)=>setUsername(e.target.value)} onKeyUp={handleKeyUp} />
           <button className="btn joinBtn" onClick={joinRoom}>Join</button>
           <span className="createInfo">Dont have Invite Code? Create &nbsp; <a onClick={createNewRoom} href="" className='createNewBtn'>New Room</a></span>
         </div>
