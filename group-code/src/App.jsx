@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>Group Code</h1>
+      
     </div>
     
   )
