@@ -1,0 +1,20 @@
+Group Code
+    Real Time Collaborative Code Editor
+
+Tech Stack: ReactJS ,NodeJS, Express,Web Scokets Socket.IO
+Multiple people can perform coding and edit in real Time
+Keeps all clients in Sync in Real Time
+
+    Project Overview
+        Create a New Room or Join in Existing Room 
+        Any number fo people can join and edit in real time 
+        Shows the people connected in a room 
+        Updations is in real time
+
+
+Steps Involved during the development of the Projects
+
+
+
+
+
