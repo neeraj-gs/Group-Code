@@ -22,6 +22,12 @@ Steps Involved during the development of the Projects
     6.Start Craeting the Home Page 
     7.Add Basic Skeleton of Home Page 
     8.Style the Home Page
+
+    9.Now we need to take room id and add it to our URL 
+    10.Whenever a New room is created a unique id has to be geenerated
+        package:npm install uuid 
+            It is a pacakge that geenerates unique id every time a new Room is created
+            
     
 
 
