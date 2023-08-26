@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Filled_Logo.png'
 import Client from './Client';
+import Editor from './Editor';
 
 const EditorPage = () => {
   const [clients,setClients] = useState([{
@@ -23,8 +24,12 @@ const EditorPage = () => {
 
           </div>
         </div>
+        <button className='copyBtn'>Copy Room ID</button>
+        <button className='leaveBtn'>Leave</button>
       </div>
-      <div className="editorWrap">Editor Goes Here</div>
+      <div className="editorWrap">
+        <Editor />
+      </div>
     </div>
   )
 }
