@@ -8,7 +8,7 @@ body {
 }
 
 .homePageWrapper{
-    height: 100vh; /*TO center along Vertical the containrer shoudl not take till content should take entire page height*/
+    /* height: 100vh; TO center along Vertical the containrer shoudl not take till content should take entire page height */
     display: flex;
     align-items: center;
     justify-content: center;

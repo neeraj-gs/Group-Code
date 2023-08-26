@@ -10,7 +10,7 @@ body{
 }
 
 .aside{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #1c1e29;
     padding: 16px;
     color: #fff;

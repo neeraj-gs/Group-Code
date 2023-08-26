@@ -1,4 +1,9 @@
 .CodeMirror{
     /*We have an inbuilt CodeMirror that comes inbuilt */
     /*We are overriding the style of inbuilt ones*/
+    min-height: calc(100vh - 20px); /* Needs to take the entire screeen from top to bottom and we need to *use calc*/
+    /*-20px to remove the scroll that was happening*/
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
 }
