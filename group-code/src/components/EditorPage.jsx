@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Logo from '../assets/Filled_Logo.png'
 import Client from './Client';
 import Editor from './Editor';
+import '../styles/EditorPage.css'
 
 const EditorPage = () => {
   const [clients,setClients] = useState([{
