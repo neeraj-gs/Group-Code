@@ -46,5 +46,14 @@ Steps Involved during the development of the Projects
         e.code =='enter' only then do else dont do 
 
     21.NOW WE NEED TO START OUR EDITOR Page
-    22.
+    22.Create the 2 Grids one for Logo Bar and One FOr editor
+    23.Use npm install react-avatar to geenerate random avatar for clients
+    24.Style the left logo bar compeonts 
+    
+    25.Start editing the editor ont he RHS 
+    26.Code mirror open source editor we will use that for the editor as it si open sourced
+    27.npm install codemirror
+        It is an Open DOurce editor and we can add the editor featrues to the code we want to 
+        npm i codemirror@version5 //this worked many times dont work
+
 
