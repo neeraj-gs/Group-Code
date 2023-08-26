@@ -56,4 +56,12 @@ Steps Involved during the development of the Projects
         It is an Open DOurce editor and we can add the editor featrues to the code we want to 
         npm i codemirror@version5 //this worked many times dont work
 
+    28.Create an instance of it adn then render it onyl once usign us useEffect
+    29.Style it properly using css 
+    30.Remove the scroll effect by  100vh - px
+    
+    
+    31.We need a Server to Communicate with the Scokets in Real Time
+    
+
 
