@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Logo from '../assets/Filled_Logo.png'
+import Client from './Client';
 
 const EditorPage = () => {
   const [clients,setClients] = useState([{
@@ -18,7 +19,7 @@ const EditorPage = () => {
           </div>
           <h3>Coders Connected</h3>
           <div className="clientsList">
-            {clients.map(c=><Client key={client.socketId} username={clients.username}/>)}
+            {clients.map(c=><Client key={c.socketId} username={c.username}/>)}
 
           </div>
         </div>
