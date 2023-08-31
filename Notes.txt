@@ -62,6 +62,6 @@ Steps Involved during the development of the Projects
     
     
     31.We need a Server to Communicate with the Scokets in Real Time
-    
+    32.Server is required for Socket.io for real time communication
 
 
